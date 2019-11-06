@@ -2,6 +2,8 @@
 
 ## Why make things simple when they can be complicated?
 
+## HFML Tags
+
 `[1a]` folio, side 
 
 `[1a.1]` folio, side, line
