@@ -1,4 +1,5 @@
-# The Human Friendly Markup Language
+# HFML
+## The Human Friendly Markup Language
 
 ## Why make things simple when they can be complicated?
 
