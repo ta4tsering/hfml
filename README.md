@@ -9,7 +9,7 @@ Why make things simple when they can be complicated?
 
 ... more tags
 
-### Pagination tags
+### Source text pagination tags
 `[1a]` folio, side 
 
 `[1a.1]` folio, side, line
