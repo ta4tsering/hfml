@@ -4,16 +4,29 @@ Why make things simple when they can be complicated?
 
 ## HFML Tags
 
+### NER tags
 `<E >` definition
 
+... more tags
+
+### Pagination tags
 `[1a]` folio, side 
 
 `[1a.1]` folio, side, line
 
-`{T###}` text number
+### TOC tags
+`{T###}` text ID
+
+`{T###-##}` section/chapter ID
+
+### Layout tags
+`[text]` yig chung
+
+### Spell-checking tags
 
 `(eror,error)` potential error, correction suggestion
 
+### Critical aparatus
 `[ ]` uncertain reading
 
 `(* )`  editorial restoration of lost text
