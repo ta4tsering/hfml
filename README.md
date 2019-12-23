@@ -20,17 +20,17 @@ Why make things simple when they can be complicated?
 `{T###-##}` section/chapter ID
 
 ### Layout tags
-`{bt ####}` `(Book Title)`contains a title for any kind of work.
+`{bt ####}` (Book Title)contains a title for any kind of work.
 
-`{au ####}` `(Author)` contains the name(s) of an author, personal or corporate, of a work
+`{au ####}` (Author)contains the name(s) of an author, personal or corporate, of a work
 
-`{rt ######}` `(Root text)`contains a phrase or passage attributed by the narrator or author to some agency external to the text
+`{rt ######}` (Root text)contains a phrase or passage attributed by the narrator or author to some agency external to the text
 
-`{q ######}` `(Citation)` contains a quotation from some other document
+`{q ######}` (Citation)contains a quotation from some other document
 
-`{s ######}` `(Sabche)`contains the sub topic titles.
+`{s ######}` (Sabche)contains the sub topic titles.
 
-`[text]` `(Yikchung)` contains text usually smaller in size than the rest of the text and it can be titiles,hommage or colophon.
+`[text]` (Yikchung)contains text usually smaller in size than the rest of the text and it can be titiles,hommage or colophon.
 
  `#` `(Peydurma)`denotes the peydurma notes
 
