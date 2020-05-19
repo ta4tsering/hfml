@@ -61,7 +61,7 @@ Why make things simple when they can be complicated?
 
 ### Spell-checking tags
 
-`(eror,error)` potential error, correction suggestion
+`(error,suggestion)` potential error, correction suggestion
 
 ### Critical aparatus
 `[ ]` uncertain reading
