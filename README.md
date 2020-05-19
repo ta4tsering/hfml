@@ -4,6 +4,41 @@ Simple markup language for semantic annotations.
 
 ## HFML Tags
 
+
+| བོད། bo                    | ཨིན། en                       | རྟགས། tag        | མཆན། note                          |   |
+|---------------------------|------------------------------|-----------------|------------------------------------|---|
+| མཚོན་བྱ།                    | what is defined              | (A .......)     |                                    |   |
+| མཚན་ཉིད།                   | definition                   | (B .......)     |                                    |   |
+| མཚན་གཞི།                   | instance                     | (C .......)     |                                    |   |
+| དབྱེ་གཞི།                    | what is enumerated           | (D .......)     |                                    |   |
+| དབྱེ་བ།                     | enumeration                  | (E .......)     | རྣམ་གྲངས་འདིར་བསྡུས་ཡོད།                 |   |
+| སྒྲ་བཤད།                    | word part explanation        | (F .......)     |                                    |   |
+| སྒྲ་གཞི།                     | what is explained            | (L .......)     |                                    |   |
+| ལུང་ཚིག                     | citation                     | (G .......)     |                                    |   |
+| ལུང་ཁུངས།                   | source                       | (H .......)     |                                    |   |
+| མཛད་བྱང་།                  | authorship statement         | (I .......)     |                                    |   |
+| བསྒྱུར་བྱང་།                  | translation statement        | (J .......)     |                                    |   |
+| མཚན་བྱང་།                  | title                        | (K .......)     |                                    |   |
+| མཚོན་བྱ་ཡིན་ལ་དབྱེ་གཞི་ཡང་ཡིན་པ། |                              | (AD......)      | needs to be replaced               |   |
+| གོ་བྱ།                      | what is explained            | (N........)     |                                    |   |
+| གོ་དོན།                     | meaning                      | (N*........)    |                                    |   |
+| དཔེར་བརྗོད།                  | example                      | (N**........)   |                                    |   |
+| འགྲེལ་གཞི།                   | what is explained            | (O..........)   |                                    |   |
+| འགྲེལ་བཤད།                  | emplanation                  | (O*..........)  |                                    |   |
+| སྐབས་བསྟུན་འགྲེལ་བཤད།          | context-specific explanation | (O**..........) |                                    |   |
+| འགྲེལ་གཞི་དང་དེའི་དབྱེ་བ།        |                              | (OD.......)     | needs to be replaced               |   |
+| འཇུག་ཡུལ།                   | agreement female             | (P........)     | needs a better english translation |   |
+| འཇུག་བྱ།                    | agreement male               | (P*........)    | needs a better english translation |   |
+| མི་འཇུག་སའི་ཡུལ།              | illegal agreement female     | (PP...)         |                                    |   |
+| མི་འཇུག་ས།                  | illegal agreement male       | (PP*...)        |                                    |   |
+| ས་བཅད།                    | outline                      | (Q........)     |                                    |   |
+| ས་བཅད་ཀྱི་དབྱེ་གཞི།            | outline node                 | (Q*........)    |                                    |   |
+| ས་བཅད་ཀྱི་ནང་གསེས།           | outline branches             | (Q**........)   |                                    |   |
+| ངོས་འཛིན་བྱ།                 | what is identified           | (R.........)    |                                    |   |
+| ངོས་འཛིན་བྱེད།                | identification               | (R*.........)   |                                    |   |
+| རྩ་བ།                      | root text                    | (M.........)    |                                    |   |
+| འགྲེལ་བ།                    | commentary                   | (M*.........)   |                                    |   |
+
 ### IE tags
 | བོད། bo           | ཨིན། en                       | རྟགས། tag        | དཔེར་བརྗོད། Example                                                                                           |
 | ---------------- | ---------------------------- | --------------- | ----------------------------------------------------------------------------------------------------------
