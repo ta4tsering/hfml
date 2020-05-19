@@ -1,6 +1,6 @@
 # HFML - the human-friendly markup language
 
-Simple markup for semantic/logical annotations
+Simple markup language for semantic annotations.
 
 ## HFML Tags
 
