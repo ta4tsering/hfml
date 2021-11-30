@@ -4,7 +4,10 @@ Simple markup language for semantic annotations.
 
 ## HFML Tags
 
-### Source text pagination tags
+### Pagination
+`[#]` page
+
+### Pecha format pagination
 `[1a]` folio, side
 
 `[1a.1]` folio, side, line
@@ -32,7 +35,7 @@ Simple markup language for semantic annotations.
 `(error,suggestion)` potential error, correction suggestion
 
 ### Critical aparatus
-`[ ]` uncertain reading
+`[? ]` uncertain reading
 
 `\<* \>`  editorial restoration of lost text
 
