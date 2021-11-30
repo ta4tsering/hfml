@@ -110,7 +110,7 @@ Simple markup language for semantic annotations.
 
 **Text Sample:**
 
-![image](https://user-images.githubusercontent.com/17675331/144014792-96bca8a5-ed96-46a1-b540-e03b606ef1ae.png)
+![](https://user-images.githubusercontent.com/17675331/144018718-802beb99-326b-4bc7-9323-bbf6fe7e2b3f.png)
 
 `[517](1) མཚན་བྱང་འདི་ཆོས་ཚན་འདིའི་མཚན་བོད་སྐད་དུ་སྨོས་པ་[..]`  
 `མདོ་ཚན་བཅུ་གསུམ་སྣར་ཐང་པར་དུ་མདོ་ཨ་པའི་གཤམ་དུ་[..]`
