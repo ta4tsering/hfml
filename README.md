@@ -2,15 +2,54 @@
 
 Simple markup language for semantic annotations.
 
-## HFML Tags
+## Pagination tags
 
-### Pagination
-`[#]` page
+### `[1]`
 
-### Pecha format pagination
-`[1a]` folio, side
+**Syntax:**
+`[<page number>]`
 
-`[1a.1]` folio, side, line
+**Use:**
+Mark for modern pagination information in modern book or arabic page numbers in traditional text layout.
+
+**Text Sample:**
+``བཀྲ་ཤིས་ཆེན་པའི་མདོ་རྫོགས་སོ།།
+[32]``
+
+**Type:**
+Pagination
+
+### `[1a]`
+
+**Syntax:**
+`[<page number><a/b side>]`
+
+**Use:**
+Tag for traditional pecha page numbers spelled out in Tibetan on the front side of a folio.
+
+**Text Sample:**
+``[16b]ནི་བཀྲ་ཤིས་གསུམ་པའོ།། [..] བཀྲ་ཤིས་ཆེན་པའི་མདོ་རྫོགས་སོ།།
+[32]``
+
+**Type:**
+Pecha pagination
+
+
+### `[1a.1]`
+
+**Syntax:**
+`[<page number><a/b side>.<line number>]`
+
+**Use:**
+Tag for line numbers in traditional pecha layout.
+
+**Text Sample:**
+``[16b][16b.1]ནི་བཀྲ་ཤིས་གསུམ་པའོ།། [..] [16b.4]བཀྲ་ཤིས་ཆེན་པའི་མདོ་རྫོགས་སོ།།
+[32]``
+
+**Type:**
+Pecha pagination
+
 
 ### TOC tags
 `{T###}` text ID
