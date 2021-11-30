@@ -15,6 +15,8 @@ Simple markup language for semantic annotations.
 
 ### `[1]`
 
+**Type:** Pagination
+
 **Syntax:** `[<page number>]`
 
 **Use:** Mark for modern pagination information in modern book or arabic page numbers in traditional text layout.
@@ -28,7 +30,7 @@ Simple markup language for semantic annotations.
 `དྲང་སྲོང་ལྷུང་བ་རི་དགས་རྒྱུ་བའི་གནས་ན་བཞུགས་སོ། །དེ་ནས་བཅོམ་ལྡན་འདས་ཀྱིས་དགེ་སློང་ལྔ་སྡེ་རྣམས་བོས་ཏེ་བཀའ་[..]`  
 `དང་དམན་པར་འགྱུར་རོ། །སོ་སོའི་སྐྱེ་བོ་རྣམས་ནི་དོན་མེད་པ་དང་ལྡན་པའི་ཕྱིར་གང་སུ་དག་ལུས་དུབ་པ་དང་འབྲལ་བའི་སྡུག་[..]`  
 
-**Type:** Pagination
+[back to top](https://github.com/OpenPecha/hfml#tagset)
 
 ---
 
@@ -49,6 +51,8 @@ Simple markup language for semantic annotations.
 `དྲང་སྲོང་ལྷུང་བ་རི་དགས་རྒྱུ་བའི་གནས་ན་བཞུགས་སོ། །དེ་ནས་བཅོམ་ལྡན་འདས་ཀྱིས་དགེ་སློང་ལྔ་སྡེ་རྣམས་བོས་ཏེ་བཀའ་[..]`  
 `དང་དམན་པར་འགྱུར་རོ། །སོ་སོའི་སྐྱེ་བོ་རྣམས་ནི་དོན་མེད་པ་དང་ལྡན་པའི་ཕྱིར་གང་སུ་དག་ལུས་དུབ་པ་དང་འབྲལ་བའི་སྡུག་[..]`  
 
+[back to top](https://github.com/OpenPecha/hfml#tagset)
+
 ---
 
 ### `[1a.1]`
@@ -68,6 +72,8 @@ Simple markup language for semantic annotations.
 `[180b.2]དྲང་སྲོང་ལྷུང་བ་རི་དགས་རྒྱུ་བའི་གནས་ན་བཞུགས་སོ། །དེ་ནས་བཅོམ་ལྡན་འདས་ཀྱིས་དགེ་སློང་ལྔ་སྡེ་རྣམས་བོས་ཏེ་བཀའ་[..]`  
 `[180b.3]དང་དམན་པར་འགྱུར་རོ། །སོ་སོའི་སྐྱེ་བོ་རྣམས་ནི་དོན་མེད་པ་དང་ལྡན་པའི་ཕྱིར་གང་སུ་དག་ལུས་དུབ་པ་དང་འབྲལ་བའི་སྡུག་[..]`  
 
+[back to top](https://github.com/OpenPecha/hfml#tagset)
+
 ---
 
 ### TOC tags
@@ -75,6 +81,8 @@ Simple markup language for semantic annotations.
 `{T###}` text ID
 
 `{T###-##}` section/chapter ID
+
+[back to top](https://github.com/OpenPecha/hfml#tagset)
 
 ---
 
@@ -107,6 +115,8 @@ Simple markup language for semantic annotations.
 `[517]`  
 `༄༅། །ཆོས་ཀྱི་འཁོར་ལོ་རབ་ཏུ་བསྐོར་བའི་མདོ།(1)`
 
+[back to top](https://github.com/OpenPecha/hfml#tagset)
+
 ---
 
 ### `[100](1):`
@@ -123,6 +133,8 @@ Simple markup language for semantic annotations.
 
 `[517](1) མཚན་བྱང་འདི་ཆོས་ཚན་འདིའི་མཚན་བོད་སྐད་དུ་སྨོས་པ་[..]`  
 `མདོ་ཚན་བཅུ་གསུམ་སྣར་ཐང་པར་དུ་མདོ་ཨ་པའི་གཤམ་དུ་[..]`
+
+[back to top](https://github.com/OpenPecha/hfml#tagset)
 
 ---
 
