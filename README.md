@@ -6,11 +6,9 @@ Simple markup language for semantic annotations.
 
 ### `[1]`
 
-**Syntax:**  
-`[<page number>]`
+**Syntax:**  `[<page number>]`
 
-**Use:**  
-Mark for modern pagination information in modern book or arabic page numbers in traditional text layout.
+**Use:**  Mark for modern pagination information in modern book or arabic page numbers in traditional text layout.
 
 **Text Sample:**
 
@@ -21,16 +19,13 @@ Mark for modern pagination information in modern book or arabic page numbers in 
 `དྲང་སྲོང་ལྷུང་བ་རི་དགས་རྒྱུ་བའི་གནས་ན་བཞུགས་སོ། །དེ་ནས་བཅོམ་ལྡན་འདས་ཀྱིས་དགེ་སློང་ལྔ་སྡེ་རྣམས་བོས་ཏེ་བཀའ་[..]`  
 `དང་དམན་པར་འགྱུར་རོ། །སོ་སོའི་སྐྱེ་བོ་རྣམས་ནི་དོན་མེད་པ་དང་ལྡན་པའི་ཕྱིར་གང་སུ་དག་ལུས་དུབ་པ་དང་འབྲལ་བའི་སྡུག་[..]`  
 
-**Type:**  
-Pagination
+**Type:**  Pagination
 
 ### `[1a]`
 
-**Syntax:**  
-`[<page number><a/b side>]`
+**Syntax:**  `[<page number><a/b side>]`
 
-**Use:**  
-Tag for traditional pecha page numbers spelled out in Tibetan on the front side of a folio.
+**Use:**  Tag for traditional pecha page numbers spelled out in Tibetan on the front side of a folio.
 
 **Text Sample:**
 
@@ -41,16 +36,15 @@ Tag for traditional pecha page numbers spelled out in Tibetan on the front side 
 `དྲང་སྲོང་ལྷུང་བ་རི་དགས་རྒྱུ་བའི་གནས་ན་བཞུགས་སོ། །དེ་ནས་བཅོམ་ལྡན་འདས་ཀྱིས་དགེ་སློང་ལྔ་སྡེ་རྣམས་བོས་ཏེ་བཀའ་[..]`  
 `དང་དམན་པར་འགྱུར་རོ། །སོ་སོའི་སྐྱེ་བོ་རྣམས་ནི་དོན་མེད་པ་དང་ལྡན་པའི་ཕྱིར་གང་སུ་དག་ལུས་དུབ་པ་དང་འབྲལ་བའི་སྡུག་[..]`  
 
-**Type:**  
-Pecha pagination
+**Type:**  Pecha pagination
 
 ### `[1a.1]`
 
-**Syntax:**  
-`[<page number><a/b side>.<line number>]`
+**Type:**  Pecha pagination
 
-**Use:**  
-Tag for line numbers in traditional pecha layout.
+**Syntax:**  `[<page number><a/b side>.<line number>]`
+
+**Use:**  Tag for line numbers in traditional pecha layout.
 
 **Text Sample:**
 
@@ -60,9 +54,6 @@ Tag for line numbers in traditional pecha layout.
 `[180b.1]༄༅། །རྒྱ་གར་སྐད་དུ། དྷརྨ་ཙཀྲ་པྲ་བརྟ་ན་སཱུ་ཏྲ། བོད་སྐད་དུ། ཆོས་ཀྱི་འཁོར་ལོ་རབ་ཏུ་བསྐོར་བའི་མདོ། [..]`  
 `[180b.2]དྲང་སྲོང་ལྷུང་བ་རི་དགས་རྒྱུ་བའི་གནས་ན་བཞུགས་སོ། །དེ་ནས་བཅོམ་ལྡན་འདས་ཀྱིས་དགེ་སློང་ལྔ་སྡེ་རྣམས་བོས་ཏེ་བཀའ་[..]`  
 `[180b.3]དང་དམན་པར་འགྱུར་རོ། །སོ་སོའི་སྐྱེ་བོ་རྣམས་ནི་དོན་མེད་པ་དང་ལྡན་པའི་ཕྱིར་གང་སུ་དག་ལུས་དུབ་པ་དང་འབྲལ་བའི་སྡུག་[..]`  
-
-**Type:**  
-Pecha pagination
 
 ### TOC tags
 
@@ -86,13 +77,11 @@ Pecha pagination
 
 ### `(1)`
 
-**Type:** Note maker
+**Type:**  Note maker
 
-**Syntax:**  
-`(<note number>)]`
+**Syntax:**  `(<note number>)]`
 
-**Use:**  
-Marker for both footnotes and endnotes
+**Use:**  Marker for both footnotes and endnotes
 
 **Text Sample:**
 
@@ -105,11 +94,9 @@ Marker for both footnotes and endnotes
 
 **Type:** Endnote content prefix
 
-**Syntax:**  
-`[<page reference>](<note number>)]`
+**Syntax:**  `[<page reference>](<note number>)]`
 
-**Use:**  
-Marker for the content of endnotes located at the end of texts.
+**Use:**  Marker for the content of endnotes located at the end of texts.
 
 **Text Sample:**
 
