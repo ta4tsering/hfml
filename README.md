@@ -66,6 +66,7 @@ Simple markup language for semantic annotations.
 - we don't encode lines as annotations and generate them on the fly from the pagination layer and line returns in the base
 
 ## Sources
+- https://ubsicap.github.io/usfm/
 - [gandhari.org]\<https://gandhari.org/a_dpreface.php\>
 - [esukhia/derge-kangyur]\<https://github.com/Esukhia/derge-kangyur\>
 - https://www.markdownguide.org/extended-syntax/#fn:bignote
