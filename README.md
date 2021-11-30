@@ -2,6 +2,15 @@
 
 Simple markup language for semantic annotations.
 
+## Tagset
+
+1.  [`[1]`](https://github.com/OpenPecha/hfml#1)
+2.  [`[1a]`](https://github.com/OpenPecha/hfml#1a)
+3.  [`[1a.1]`](https://github.com/OpenPecha/hfml#1a1)
+4.  [`(1)`](https://github.com/OpenPecha/hfml#1-1)
+5.  [`[100](1)`](https://github.com/OpenPecha/hfml#1001)
+6.  [`[1]`](https://github.com/OpenPecha/hfml#1)
+
 ## Pagination tags
 
 ### `[1]`
