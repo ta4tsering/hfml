@@ -6,9 +6,9 @@ Simple markup language for semantic annotations.
 
 ### `[1]`
 
-**Syntax:**  `[<page number>]`
+**Syntax:** `[<page number>]`
 
-**Use:**  Mark for modern pagination information in modern book or arabic page numbers in traditional text layout.
+**Use:** Mark for modern pagination information in modern book or arabic page numbers in traditional text layout.
 
 **Text Sample:**
 
@@ -19,13 +19,17 @@ Simple markup language for semantic annotations.
 `དྲང་སྲོང་ལྷུང་བ་རི་དགས་རྒྱུ་བའི་གནས་ན་བཞུགས་སོ། །དེ་ནས་བཅོམ་ལྡན་འདས་ཀྱིས་དགེ་སློང་ལྔ་སྡེ་རྣམས་བོས་ཏེ་བཀའ་[..]`  
 `དང་དམན་པར་འགྱུར་རོ། །སོ་སོའི་སྐྱེ་བོ་རྣམས་ནི་དོན་མེད་པ་དང་ལྡན་པའི་ཕྱིར་གང་སུ་དག་ལུས་དུབ་པ་དང་འབྲལ་བའི་སྡུག་[..]`  
 
-**Type:**  Pagination
+**Type:** Pagination
+
+---
 
 ### `[1a]`
 
-**Syntax:**  `[<page number><a/b side>]`
+**Type:** Pecha folio pagination
 
-**Use:**  Tag for traditional pecha page numbers spelled out in Tibetan on the front side of a folio.
+**Syntax:** `[<page number><a/b side>]`
+
+**Use:** Tag for traditional pecha page numbers spelled out in Tibetan on the front side of a folio.
 
 **Text Sample:**
 
@@ -36,15 +40,15 @@ Simple markup language for semantic annotations.
 `དྲང་སྲོང་ལྷུང་བ་རི་དགས་རྒྱུ་བའི་གནས་ན་བཞུགས་སོ། །དེ་ནས་བཅོམ་ལྡན་འདས་ཀྱིས་དགེ་སློང་ལྔ་སྡེ་རྣམས་བོས་ཏེ་བཀའ་[..]`  
 `དང་དམན་པར་འགྱུར་རོ། །སོ་སོའི་སྐྱེ་བོ་རྣམས་ནི་དོན་མེད་པ་དང་ལྡན་པའི་ཕྱིར་གང་སུ་དག་ལུས་དུབ་པ་དང་འབྲལ་བའི་སྡུག་[..]`  
 
-**Type:**  Pecha pagination
+---
 
 ### `[1a.1]`
 
-**Type:**  Pecha pagination
+**Type:** Pecha pagination
 
-**Syntax:**  `[<page number><a/b side>.<line number>]`
+**Syntax:** `[<page number><a/b side>.<line number>]`
 
-**Use:**  Tag for line numbers in traditional pecha layout.
+**Use:** Tag for line numbers in traditional pecha layout.
 
 **Text Sample:**
 
@@ -55,11 +59,15 @@ Simple markup language for semantic annotations.
 `[180b.2]དྲང་སྲོང་ལྷུང་བ་རི་དགས་རྒྱུ་བའི་གནས་ན་བཞུགས་སོ། །དེ་ནས་བཅོམ་ལྡན་འདས་ཀྱིས་དགེ་སློང་ལྔ་སྡེ་རྣམས་བོས་ཏེ་བཀའ་[..]`  
 `[180b.3]དང་དམན་པར་འགྱུར་རོ། །སོ་སོའི་སྐྱེ་བོ་རྣམས་ནི་དོན་མེད་པ་དང་ལྡན་པའི་ཕྱིར་གང་སུ་དག་ལུས་དུབ་པ་དང་འབྲལ་བའི་སྡུག་[..]`  
 
+---
+
 ### TOC tags
 
 `{T###}` text ID
 
 `{T###-##}` section/chapter ID
+
+---
 
 ### Footnote tags
 
@@ -71,17 +79,17 @@ Simple markup language for semantic annotations.
 `(##)` endnote marker  
 `(##):` endnote content prefix
 
-
 `[###](##):` endnote content prefix
 
+---
 
 ### `(1)`
 
-**Type:**  Note maker
+**Type:** Note maker
 
-**Syntax:**  `(<note number>)]`
+**Syntax:** `(<note number>)]`
 
-**Use:**  Marker for both footnotes and endnotes
+**Use:** Marker for both footnotes and endnotes
 
 **Text Sample:**
 
@@ -90,13 +98,15 @@ Simple markup language for semantic annotations.
 `[517]`  
 `༄༅། །ཆོས་ཀྱི་འཁོར་ལོ་རབ་ཏུ་བསྐོར་བའི་མདོ།(1)`
 
+---
+
 ### `[100](1):`
 
 **Type:** Endnote content prefix
 
-**Syntax:**  `[<page reference>](<note number>)]`
+**Syntax:** `[<page reference>](<note number>)]`
 
-**Use:**  Marker for the content of endnotes located at the end of texts.
+**Use:** Marker for the content of endnotes located at the end of texts.
 
 **Text Sample:**
 
@@ -105,8 +115,7 @@ Simple markup language for semantic annotations.
 `[517](1) མཚན་བྱང་འདི་ཆོས་ཚན་འདིའི་མཚན་བོད་སྐད་དུ་སྨོས་པ་[..]`  
 `མདོ་ཚན་བཅུ་གསུམ་སྣར་ཐང་པར་དུ་མདོ་ཨ་པའི་གཤམ་དུ་[..]`
 
-
-
+---
 
 ### Spell-checking tags
 
