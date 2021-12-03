@@ -4,12 +4,13 @@ Simple markup language for semantic annotations.
 
 ## Tagset
 
-1.  [`[1]`](https://github.com/OpenPecha/hfml#1)
-2.  [`[1a]`](https://github.com/OpenPecha/hfml#1a)
-3.  [`[1a.1]`](https://github.com/OpenPecha/hfml#1a1)
-4.  [`(1)`](https://github.com/OpenPecha/hfml#1-1)
-5.  [`[100](1)`](https://github.com/OpenPecha/hfml#1001)
-6.  [`[1]`](https://github.com/OpenPecha/hfml#1)
+* Pagination tags
+  *   [`[1]`](https://github.com/OpenPecha/hfml#1)
+  *   [`[1a]`](https://github.com/OpenPecha/hfml#1a)
+  *   [`[1a.1]`](https://github.com/OpenPecha/hfml#1a1)
+* Footnote tags
+  *   [`(1)`](https://github.com/OpenPecha/hfml#1-1)
+  *   [`[100](1)`](https://github.com/OpenPecha/hfml#1001)
 
 ## Pagination tags
 
@@ -86,6 +87,8 @@ Simple markup language for semantic annotations.
 
 ---
 
+---
+
 ### Footnote tags
 
 `[^##]` inline note marker  
@@ -140,7 +143,15 @@ Simple markup language for semantic annotations.
 
 ### Spell-checking tags
 
-`(error,suggestion)` potential error, correction suggestion
+**Type:** potential error, correction suggestion
+
+**Syntax:** `(error,suggestion)` 
+
+**Use:** Marker for the content of endnotes located at the end of texts.
+
+**Text Sample:** 
+
+---
 
 ### Critical aparatus
 
