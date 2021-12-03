@@ -4,11 +4,12 @@ Simple markup language for semantic annotations.
 
 ## Tagset
 
-**Pagination tags**
+[**Pagination tags**](https://github.com/OpenPecha/hfml#paginationtags)
 *   [`[1]`](https://github.com/OpenPecha/hfml#1)
 *   [`[1a]`](https://github.com/OpenPecha/hfml#1a)
 *   [`[1a.1]`](https://github.com/OpenPecha/hfml#1a1)
-**Footnote tags**
+
+[**Footnote tags**](https://github.com/OpenPecha/hfml#footnotetags)
 *   [`(1)`](https://github.com/OpenPecha/hfml#1-1)
 *   [`[100](1)`](https://github.com/OpenPecha/hfml#1001)
 
